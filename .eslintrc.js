@@ -7,8 +7,8 @@ module.exports = {
   },
   globals: {},
   extends: [
-    'eslint-config-airbnb-base',
     'eslint-config-prettier',
+    'eslint-config-airbnb-base',
     'eslint:recommended',
     'plugin:node/recommended',
   ],
@@ -20,6 +20,8 @@ module.exports = {
   plugins: [],
   settings: {},
   rules: {
+    'no-plusplus': ['off'],
+    'eol-last': ['off'],
     strict: ['off'],
     indent: ['error', 2],
     'no-console': ['off'],
