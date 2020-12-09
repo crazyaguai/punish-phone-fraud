@@ -7,8 +7,8 @@ module.exports = {
   },
   globals: {},
   extends: [
-    'eslint-config-prettier',
     'eslint-config-airbnb-base',
+    'eslint-config-prettier',
     'eslint:recommended',
     'plugin:node/recommended',
   ],
